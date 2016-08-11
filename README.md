@@ -2,6 +2,8 @@
 
 Pokemon database written fully in Erlang.
 
+iOS Client - [pokemap_live_ios](https://github.com/ruffnecktsk/pokemap_live_ios)
+
 WEBHOOK for PokemonGoMap:
 -wh http://pokelocation.ru/webhookgate
 
