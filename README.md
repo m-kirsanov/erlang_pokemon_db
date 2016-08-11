@@ -2,6 +2,9 @@
 
 Pokemon database powered by Erlang.
 
+WEBHOOK for PokemonGoMap:
+-wh http://pokelocation.ru/webhookgate
+
 # Structure
 # Main server
 1. Returns node url for given coordinate.
