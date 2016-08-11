@@ -7,7 +7,7 @@ iOS Client - [pokemap_live_ios](https://github.com/ruffnecktsk/pokemap_live_ios)
 WEBHOOK for PokemonGoMap:
 -wh http://pokelocation.ru/webhookgate
 
-Please add webhooks to your pokemon maps, i need to test how all works. After testing i will publish requests to DB API.
+Please add webhooks to your PokemonGo-Map workers, this will help me with testing. I need some high-load test before releasing requests API.
 
 # Structure
 # Main server
