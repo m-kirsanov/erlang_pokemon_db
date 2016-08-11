@@ -1,9 +1,11 @@
 # Erlang Pokemon DB
 
-Pokemon database powered by Erlang.
+Pokemon database written fully in Erlang.
 
 WEBHOOK for PokemonGoMap:
 -wh http://pokelocation.ru/webhookgate
+
+Please add webhooks to your pokemon maps, i need to test how all works. After testing i will publish requests to DB API.
 
 # Structure
 # Main server
