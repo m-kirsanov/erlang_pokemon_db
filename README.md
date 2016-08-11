@@ -20,9 +20,5 @@ Please add webhooks to your PokemonGo-Map workers, this will help me with testin
 # Nodes
 1. Request processing. Connection using websockets, requests/responses - protocol buffers.
 
-For donation (I need support servers):
-
-Paypal - ruffnecktsk@gmail.com
-
 
 
