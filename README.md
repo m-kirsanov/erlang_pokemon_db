@@ -2,6 +2,7 @@
 
 Pokemon database written fully in Erlang.
 
+Discord link - [Discord](https://discord.gg/mQxTv)
 iOS Client - [pokemap_live_ios](https://github.com/ruffnecktsk/pokemap_live_ios)
 
 WEBHOOK for PokemonGoMap:
