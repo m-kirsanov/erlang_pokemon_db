@@ -12,13 +12,20 @@ WEBHOOK for PokemonGoMap:
 
 Please add webhooks to your PokemonGo-Map workers, this will help me with testing. I need some high-load test before releasing requests API. After testing and implementing some anti-spam features, API will be released for everyone.
 
-# Structure
-# Main server
-1. Returns node url for given coordinate.
-2. Receives pokemon data from [PokemonGo-Map](https://github.com/PokemonGoMap/PokemonGo-Map) using webhooks. Later i create separate service for this.
+How to use:
 
-# Nodes
-1. Request processing. Connection using websockets, requests/responses - protocol buffers.
+For webhook:
 
+http://pokelocation.ru/webhookgate
+
+For requests
+
+http://pokelocation.ru/api/[lat]/[lon] - will give for you node url.
+
+connect ws://[node url]:8080/gate
+
+Now you can send requests. Proto file you can download from repo.
+
+if you receive INVALID_LATLON response, you need again request node url for new coordinate and reconnect sockets.
 
 
