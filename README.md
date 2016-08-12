@@ -28,6 +28,7 @@ Now you can send requests. Proto file you can download from repo.
 
 if you receive INVALID_LATLON response, you need again request node url for new coordinate and reconnect sockets.
 
+Radius for get request is limited on server (1000 meters max).
 
 If you want help me support servers:
 
