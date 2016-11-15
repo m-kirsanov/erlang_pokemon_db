@@ -1,0 +1,24 @@
+{application, pokemonserv,
+ [{description, "Pokemon server"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {mod, { pokemonserv_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    cowboy,
+    crypto,
+    uuid,
+    jesse,
+    jiffy,
+    rstar,
+    protobuffs
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
